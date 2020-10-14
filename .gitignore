@@ -9,7 +9,6 @@ __pycache__/
 # Distribution / packaging
 .Python
 build/
-data/
 develop-eggs/
 dist/
 downloads/
@@ -27,6 +26,10 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+
+# data
+data/
+
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -134,14 +137,21 @@ dmypy.json
 # pycharm stuff
 .idea/
 
+# secrets
 glassdoor_scraper/secrets.json
 
 # oraxcle client libs
 instantclient_19_3
 
 # big files
-results/category_similarities.csv
+sent2vec_models/
 
 # pycaret
 catboost_info
+
+# stanford nlp
+stanford-tagger-4.1.0.zip
+stanford-postagger-full-2020-08-06
+# fasttext
+fastText-0.9.2
 
